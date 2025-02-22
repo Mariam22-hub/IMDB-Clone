@@ -1,0 +1,80 @@
+.pageContainer {
+    background-color: #f9f9f9;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 20px;
+}
+  
+.actorDetails {
+    max-width: 1200px;
+    border-radius: 25px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px 30px;
+}
+  
+.avatarCard {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+  
+.avatar {
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    object-fit: cover;
+}
+  
+.personalInfo {
+    color: #003055;
+    margin-top: 20px;
+}
+.info {
+    margin-bottom: 5px;
+}
+
+.actorMovies {
+    color: #003055;
+}
+  
+.awardCard {
+    display: flex;
+    margin-top: 10px;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    align-items: center;
+}
+
+.awardPoster {
+    width: 6%;
+    margin-right: 15px;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.awardName {
+    font-size: 0.875rem;
+    color: #888;
+    margin-left: 15px; 
+}
+
+.heading {
+    color: #003055;
+}
+  
+.subheading {
+    color: #003055;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    color: #ffc107;
+}

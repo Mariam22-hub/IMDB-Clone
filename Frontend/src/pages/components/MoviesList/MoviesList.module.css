@@ -1,0 +1,35 @@
+.pageContainer {
+  background-color: #efefef;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.contentContainer {
+  margin-top: 20px;
+  padding: 20px 80px;
+  flex: 1;
+}
+
+.grid {
+  padding: 2rem;
+}
+
+.allMoviesHeader {
+  margin-bottom: 1rem;
+  margin-left: 2rem;
+  color: #221857;
+}
+
+.paginationControls {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.sortControl {
+  min-width: 150px;
+  margin-right: 2rem;
+}

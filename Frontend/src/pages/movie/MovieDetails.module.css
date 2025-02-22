@@ -1,0 +1,87 @@
+.pageContainer {
+    background-color: #efefef;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+.movieDetail {
+    max-width: 1200px;
+    border-radius: 25px;
+    margin: 70px auto;
+    background-color: white;
+    padding: 30px 30px;
+}
+
+.mediaCard {
+    height: 100%;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    color: #ffc107;
+}
+
+.movieYear {
+    color: rgb(71, 69, 75);
+    font-size: xx-large;
+}
+
+.media {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.image {
+    height: 400px;
+    object-fit: fill;
+}
+
+.poster {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.trailer {
+    width: 100%;
+    height: 400px;
+    border-radius: 10px;
+}
+
+.castCard, .festivalCard {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.castCard:hover {
+    transform: scale(1.05);
+}
+
+.avatar {
+    width: 80px;
+    height: 80px;
+    margin-right: 15px;
+    object-fit: cover;
+}
+
+.actorInfo {
+    flex: 1;
+}
+
+.actorName {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.characterName {
+    color: #666;
+}
